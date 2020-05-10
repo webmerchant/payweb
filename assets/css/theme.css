@@ -151,6 +151,10 @@
 }
 
 /* Modals */
+
+.blocker {
+  z-index: 9;
+}
 .modal {
   z-index: 999;
 }
