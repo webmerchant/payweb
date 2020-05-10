@@ -77,12 +77,20 @@
 				<input type="text" name="name" style="display-block;width:100%" placeholder="Name">
 				<input type="email" name="email" style="display-block;width:100%" placeholder="Email">
 				<textarea name="message" style="display-block;width:100%" placeholder="Message..."></textarea>
+				<input type="hidden" name="redirect_to" value="https://payweb.webredirect.org/#message-sent">
 				<input type="submit" value="Send message">
 			</form>
+		</div>
+		<!-- Modal Message Sent -->
+		<div id="message-sent" class="modal">
+			<h3 style="margin:0.5rem 0 1rem 0">Message sent</h3>
+			<p>Your message has been sent!</p>
 		</div>
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<!-- jQuery Modal -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+		<!-- Functions -->
+		<script src="assets/js/functions.js"></script>
    </body>
 </html>
