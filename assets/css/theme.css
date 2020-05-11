@@ -23,6 +23,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .logo {
+	margin-bottom: 3rem;
 	font-weight: bold;
 }
 
@@ -156,7 +157,7 @@
 		padding: 20rem 0 19rem;
 	}
 	.hero {
-		padding: 12rem 0 24rem 0;
+		padding: 12rem 0 26rem 0;
 	}
 	.hero-heading {
 		font-size: 3.0rem;
