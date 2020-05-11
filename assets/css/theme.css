@@ -211,11 +211,11 @@
     transform: translate(-50%, -50%);
 }
 
-.footer {
-	position: absolute;
-	bottom: 3rem;
+.section.footer {
+	background: #4a9fbe;
+	padding: 2rem;
 }
 
 #copyright {
-	margin-bottom: 2rem;
+	color: #fefefe;
 }
