@@ -183,6 +183,7 @@
 	width:100%;
 }
 
+#quote-sent,
 #message-sent {
 	position: relative;
     display: inline-block;
@@ -190,6 +191,7 @@
     min-height: 200px;
 }
 
+#quote-sent h3,
 #message-sent h3 {
     position: absolute;
     top: 30%;
@@ -197,6 +199,7 @@
     transform: translate(-50%, -50%);
 }
 
+#quote-sent p,
 #message-sent p {
     position: absolute;
     top: 60%;
