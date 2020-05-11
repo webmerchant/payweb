@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <title>PayWeb -  WebMerchant Solutions</title>
+      <title>PayWeb - Web Merchants Solutions</title>
       <meta name="description" content="">
       <meta name="author" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +19,7 @@
             <div class="row">
                <div class="one-half column">
                   <h4 class="hero-heading">Stop making lots of paperwork. Accept payments from anywhere.</h4>
-                  <a class="button button-primary" href="http://payweb.webredirect.org">Try PayWeb</a>
+                  <a class="button button-primary" href="#try" rel="modal:open">Try PayWeb</a>
                </div>
                <div class="one-half column phones">
                   <img class="phone" src="assets/img/iphone.png">
@@ -32,19 +32,19 @@
          <div class="container">
             <div class="row">
                <div class="one-third column value">
-                  <h2 class="value-multiplier">67%</h2>
+                  <h2 class="value-multiplier">57%</h2>
                   <h5 class="value-heading">Purchase Increase</h5>
-                  <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
+                  <p class="value-description">With our mobile friendly payment sites your purchase percentage will increase significantly.</p>
                </div>
                <div class="one-third column value">
-                  <h2 class="value-multiplier">90%</h2>
+                  <h2 class="value-multiplier">84%</h2>
                   <h5 class="value-heading">Multi-device Users</h5>
-                  <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
+                  <p class="value-description">Most of the world payments happens directly on a mobile device.</p>
                </div>
                <div class="one-third column value">
-                  <h2 class="value-multiplier">66%</h2>
-                  <h5 class="value-heading">Sad Users</h5>
-                  <p class="value-description">Percentage of users that are frustrated with page load times.</p>
+                  <h2 class="value-multiplier">99%</h2>
+                  <h5 class="value-heading">Happy Users</h5>
+                  <p class="value-description">Percentage of worldwide customers that are happy with our services.</p>
                </div>
             </div>
          </div>
@@ -68,23 +68,47 @@
                   <img class="u-max-full-width" src="assets/img/paypal-solutions.png">
                </div>
             </div>
+            <div class="row">
+               <div class="one column category">
+					<p>&copy; <script>document.write(new Date().getFullYear())</script><noscript>2020</noscript> PayWeb Payment Solutions. All rights reserved.</p>
+               </div>
+            </div>
          </div>
       </div>
+		<!-- Modal Try -->
+		<div id="try" class="modal">
+			<h3>Get a quote</h3>
+			<form action="https://getsimpleform.com/messages?form_api_token=66f8824dda642a3591cd74c44b1f9432" method="post">
+				<input type="text" name="name" placeholder="Full Name" required>
+				<input type="text" name="company" placeholder="Company name" required>
+				<input type="email" name="email" placeholder="Business Email" required>
+				<textarea name="message" placeholder="Business details..." required></textarea>
+				<input type="hidden" name="subject" value="Try PayWeb Services">
+				<input type="hidden" name="redirect_to" value="https://payweb.webredirect.org/#quote-sent">
+				<input type="submit" value="Submit request">
+			</form>
+		</div>
 		<!-- Modal Contact -->
 		<div id="contact" class="modal">
-			<h3 style="margin:0.5rem 0 1rem 0">Contact us</h3>
-			<form action="https://getsimpleform.com/messages?form_api_token=66f8824dda642a3591cd74c44b1f9432" method="post" style="margin-bottom:0">
-				<input type="text" name="name" style="display-block;width:100%" placeholder="Name">
-				<input type="email" name="email" style="display-block;width:100%" placeholder="Email">
-				<textarea name="message" style="display-block;width:100%" placeholder="Message..."></textarea>
+			<h3>Contact us</h3>
+			<form action="https://getsimpleform.com/messages?form_api_token=66f8824dda642a3591cd74c44b1f9432" method="post">
+				<input type="text" name="name" placeholder="Name" required>
+				<input type="email" name="email" placeholder="Email" required>
+				<input type="text" name="subject" placeholder="Subject" required>
+				<textarea name="message" placeholder="Message..." required></textarea>
 				<input type="hidden" name="redirect_to" value="https://payweb.webredirect.org/#message-sent">
 				<input type="submit" value="Send message">
 			</form>
 		</div>
 		<!-- Modal Message Sent -->
 		<div id="message-sent" class="modal">
-			<h3 style="margin:0.5rem 0 1rem 0">Message sent</h3>
-			<p>Your message has been sent!</p>
+			<h3>Message Sent!</h3>
+			<p>Your message has been sent to our team and we'll get in touch.</p>
+		</div>
+		<!-- Modal Quote Sent -->
+		<div id="quote-sent" class="modal">
+			<h3>Request Sent!</h3>
+			<p>Your quote request has been sent to our team. Thank you!</p>
 		</div>
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
