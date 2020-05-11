@@ -187,6 +187,10 @@
 	width:100%;
 }
 
+.modal textarea {
+    min-height: 120px;
+}
+
 #quote-sent,
 #message-sent {
 	position: relative;
