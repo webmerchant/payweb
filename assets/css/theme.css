@@ -169,6 +169,10 @@
 
 /* Forms */
 
+.modal {
+	z-index: 9;
+}
+
 .modal form {
 	margin-bottom: 0;
 }
@@ -186,7 +190,6 @@
 #quote-sent,
 #message-sent {
 	position: relative;
-    display: inline-block;
     text-align: center;
     min-height: 200px;
 }
